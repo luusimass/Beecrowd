@@ -1,0 +1,6 @@
+tempo = int(input())
+velocidade = int(input())
+
+combustivel = (velocidade / 12) * tempo
+
+print(f"{combustivel:.3f}")
