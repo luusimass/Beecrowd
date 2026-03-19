@@ -1,0 +1,13 @@
+IDADE = int(input())
+
+ANOS = IDADE // 365
+IDADE = IDADE % 365
+
+MESES = IDADE // 30
+IDADE = IDADE % 30
+
+DIAS = IDADE
+
+print (f"{ANOS} ano(s)")
+print (f"{MESES} mes(es)")
+print (f"{DIAS} dia(s)")
