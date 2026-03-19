@@ -1,0 +1,8 @@
+NUMBER = int(input())
+HOURS = int(input())
+VALUE_HOUR = float(input())
+
+SALARY = HOURS * VALUE_HOUR
+
+print(f"NUMBER = {NUMBER}")
+print(f"SALARY = U$ {SALARY:.2f}")
