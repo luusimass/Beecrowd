@@ -1,0 +1,12 @@
+COD1, N1, VALOR1 = input().split()
+COD2, N2, VALOR2 = input().split()
+
+N1 = int(N1)
+VALOR1 = float(VALOR1)
+
+N2 = int(N2)
+VALOR2 = float(VALOR2)
+
+PAGAR = (N1 * VALOR1) + (N2 * VALOR2)
+
+print(f"VALOR A PAGAR: R$ {PAGAR:.2f}")
