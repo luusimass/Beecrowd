@@ -1,0 +1,6 @@
+KM = int(input())
+LITROS = float(input())
+
+CONSUMO = KM / LITROS
+
+print(f"{CONSUMO:.3f} km/l")
